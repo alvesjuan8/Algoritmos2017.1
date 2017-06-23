@@ -1,0 +1,4 @@
+1) Escreva um algoritmo para ler um valor  e escrever o seu antecessor. 
+
+n=int(input("Digite um número: "))
+print(n-1)
