@@ -1,0 +1,10 @@
+5) Faça um programa que receba dois números inteiros e gere os números inteiros que estão no intervalo compreendido por eles.
+
+inicio= int(input("Inicio: ")) 
+fim= int(input("Fim: ")) 
+if fim<inicio: 
+    for i in range(inicio-1, fim,-1): 
+        print (i)
+    else: 
+        for i in range(inicio+1, fim): 
+            print (i)
