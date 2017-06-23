@@ -1,0 +1,6 @@
+4) Faça um algoritmo para efetuar o cálculo do IMC. Sabendo que é feito dividindo o peso (em quilogramas) pela altura (em metros) ao quadrado.
+
+peso=int(input("Digite seu peso: "))
+alt=float(input("Digite sua altura: "))
+imc=peso/(alt*alt)
+print(imc)
