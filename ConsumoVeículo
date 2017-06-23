@@ -1,0 +1,5 @@
+3)Um programa que o usuário informe a Km percorrida e a quantidade de litros abastecidas, o sistema informe o consumo do veículo.
+
+K=int(input("Digite a distância percorrida em KM:"))
+L=int(input("Digite a quantidade abastecida:"))
+print(K/L,"KM/L")
