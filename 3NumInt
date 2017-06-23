@@ -1,0 +1,18 @@
+1)Faça um algoritmo que receba 3 números inteiros e o usuário decida quais das opções o sistema deve retornar:
+
+n1=int(input("Digite o primeiro número: ")) 
+n2=int(input("Digite o segundo número: "))
+n3=int(input("Digite o terceiro número: ")) 
+S=n1+n2+n3
+M=n1=n2=n3/3
+menor=min(n1,n2,n3)
+maior=max(n1,n2,n3)
+op=(input("Digite a opção: S=SOMA / M=MEDIA / MENOR / MAIOR: ")) 
+if op==S:
+    print(S)
+if op==M:
+    print(M)
+if op==MENOR:
+    print(menor)
+if op==MAIOR:
+    print(maior)
