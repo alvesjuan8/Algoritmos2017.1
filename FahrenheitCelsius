@@ -1,0 +1,5 @@
+2)Faça um algoritmo para converter valores de fahrenheit celsius 
+
+F=int(input("Digite o número em Fahrenheit: "))
+C=(5/9)*(F-32)
+print(C)
