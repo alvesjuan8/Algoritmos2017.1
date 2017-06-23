@@ -1,0 +1,8 @@
+2) Escreva um algoritmo para ler as dimensões de um retângulo (base e altura), calcular e escrever a área do retângulo, e caso seja um quadrado, exibir a frase: área de um quadrado
+
+n=int(input("Digite a base: "))
+n2=int(input("Digite a altura: "))
+a=n*n2
+print(a)
+if n==n2:
+    print("Área de um quadrado")
