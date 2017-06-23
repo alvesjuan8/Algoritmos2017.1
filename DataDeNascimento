@@ -1,0 +1,8 @@
+#0. Faça um algoritmo que leia a data de nascimento(dia, mês e ano), e informe a idade correta
+
+d=int(input("Digite o dia: "))
+d2=int(input("Digite o mês: "))
+d3=int(input("Digite o ano: "))
+idade=2017-d3
+if d2<6:
+    print(idade)
