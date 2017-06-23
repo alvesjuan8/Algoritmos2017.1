@@ -1,0 +1,23 @@
+1. Faça um algoritmo que leia a data de nascimento de uma pessoa  e mostre-a expressa em anos, meses e dias.
+
+da=int(input('digite o dia atual: '))
+an=int(input('digite o ano de nascimento: '))
+mn=int(input('digite o mês de nascimento: '))
+dn=int(input('digite o dia de nascimento: '))
+i=aa-an
+i3=(mn*30)-dn
+i4=mn
+if ma<mn:
+    i=i-1
+elif ma==mn and da<dn:
+    i=i-1
+elif ma==mn and da==dn:
+    i=i
+    i3=0
+    i4=0
+elif ma==mn and da>dn:
+    i=i
+    i3=0
+else:
+    i=i
+print('Sua idade é: %d anos, %d meses e %d dias.'%(i,i4,i3))
