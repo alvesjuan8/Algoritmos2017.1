@@ -1,0 +1,8 @@
+1) Faça um algoritmo para ler a idade de 5 pessoas e informar qual foi a maior idade informada.
+
+n1=int(input("Digite idade 1: "))
+n2=int(input("Digite idade 2: "))
+n3=int(input("Digite idade 3: "))
+n4=int(input("Digite idade 4: "))
+n5=int(input("Digite idade 5: "))
+print("A maior idade é  %d!" %max(n1,n2,n3,n4,n5))
