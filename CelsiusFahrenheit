@@ -1,0 +1,6 @@
+1)Faça um algoritmo para converter valores de celsius para fahrenheit
+
+C=int(input("Digite o número em Celsius: "))
+F=(9*C+160)/5
+print(F)
+
