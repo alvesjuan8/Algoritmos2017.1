@@ -1,0 +1,15 @@
+3) Altere o algoritmo anterior e informe a maior e menor idade.
+
+x=int(input("Informe quantas idades vai informar? "))
+cont=0
+maior=0
+menor=1000
+while (cont<x):
+    i=int(input("Informe a idade: "))
+    if(i>maior):
+        maior=i
+    if(i<menor):
+        menor=i
+    cont=cont+1
+print("A maior idade é %d" %maior)
+print("A menor idade é %d" %menor)
